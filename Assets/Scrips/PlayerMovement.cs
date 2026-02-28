@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
 
 
             anim.SetBool("run", horizontalInput != 0);
-            anim.SetBool("grounded", isGrounded);
+            anim.SetBool("grounded", isGrounded());
 
 
 
